@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="in_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Выбрать папку" />
+      <TextField fx:id="in_text_field" layoutX="136.0" layoutY="14.0" prefHeight="26.0" prefWidth="450.0" AnchorPane.leftAnchor="140.0" />
+      <Button fx:id="out_button" layoutX="14.0" layoutY="40.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" text="Папка вывода" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="44.0" />
+      <TextField fx:id="out_text_field" layoutX="140.0" layoutY="44.0" prefHeight="26.0" prefWidth="450.0" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="44.0" />
+      <Button fx:id="done_button" layoutX="239.0" layoutY="333.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" text="Готово" />
+      <ListView fx:id="file_list" layoutX="14.0" layoutY="100.0" prefHeight="200.0" prefWidth="574.0" />
+      <Label fx:id="label" layoutX="14.0" layoutY="300.0" />
+   </children>
+</AnchorPane>
